@@ -1,5 +1,5 @@
 <?php
-class mdirectorio extends CI_Model{
+class Mdirectorio extends CI_Model{
   public function __construct(){
 		parent::__construct();
 	}

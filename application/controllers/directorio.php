@@ -1,5 +1,5 @@
 <?php
-class directorio extends CI_Controller {
+class Directorio extends CI_Controller {
 	function __construct(){
 		parent::__construct();
     $this->load->helper(array('url'));
@@ -19,8 +19,8 @@ class directorio extends CI_Controller {
 				$correo = $this->input->post('correo');
         $comentario = $this->input->post('comentario');
 
-        $this->load->model('mdirectorio');
-        $this->mdirectorio->insertar_comentario($nombre, $correo, $comentario);
+        $this->load->model('Mdirectorio');
+        $this->Mdirectorio->insertar_comentario($nombre, $correo, $comentario);
     }
 		$data['title'] = ucfirst('Directorio');
 		$this->load->view('templates/header',$data);

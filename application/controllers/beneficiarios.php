@@ -1,5 +1,5 @@
 <?php
-class beneficiarios extends CI_Controller {
+class Beneficiarios extends CI_Controller {
 	function __construct(){
 		parent::__construct();
     $this->load->helper(array('url'));
