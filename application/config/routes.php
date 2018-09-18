@@ -50,13 +50,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'inicio';
-$route["about"] = '/inicio/about';
-
-//$route['default_controller'] = 'webpages'; //Our default Controller
-//Get rid of the first segment (in our case we get rid of webpages)
-//$route["about"] = 'webpages/about';
-$route["blog/(.*)"] = 'webpages/blog/$1';
-//$route["view/(.*)"] = 'webpages/view/$1';
-
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
