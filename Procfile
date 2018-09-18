@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 Minipre/
+web: vendor/bin/heroku-php-apache2 application/
