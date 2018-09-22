@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://localhost/Minipre';
-$config['base_url'] = '';
+$config['base_url'] = 'https://mini-pre.herokuapp.com/';
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'inicio';
+$config['index_page'] = 'inicio.php';
 
 /*
 |--------------------------------------------------------------------------
