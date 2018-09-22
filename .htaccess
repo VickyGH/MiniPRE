@@ -3,7 +3,7 @@ Options FollowSymLinks
   RewriteEngine on
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.*)$ https://mini-pre.herokuapp.com/$1 [L]
+  RewriteRule ^(.*)$ https://mini-pre.herokuapp.com/$1 [R=301, L]
 </IfModule>
 
 <IfModule !mod_rewrite.c>
