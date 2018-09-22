@@ -1,5 +1,5 @@
 <?php
-class descargables extends CI_Controller {
+class Descargables extends CI_Controller {
 	function __construct(){
 		parent::__construct();
     $this->load->helper(array('url'));
